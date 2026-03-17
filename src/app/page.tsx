@@ -1,28 +1,12 @@
+import Navbar from '@/components/Navbar';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      {/* Navigation */}
-      <nav className="flex items-center justify-between px-8 py-6">
-        <div className="text-2xl font-bold text-blue-600">AI Ventures</div>
-        <div className="hidden md:flex space-x-8">
-          <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">Features</a>
-          <a href="#solutions" className="text-gray-600 hover:text-blue-600 transition-colors">Solutions</a>
-          <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
-          <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
-        </div>
-        <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
-          Get Started
-        </button>
-        <a href="/login" className="text-blue-600 hover:text-blue-700 font-medium transition-colors">
-          Login
-        </a>
-        <a href="/register" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
-          Sign Up
-        </a>
-      </nav>
-
+      <Navbar />
+      
       {/* Hero Section */}
-      <section className="px-8 py-20 text-center max-w-6xl mx-auto">
+      <section className="px-8 py-32 text-center max-w-6xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
           AI-Powered Solutions for Tomorrow
         </h1>
