@@ -13,6 +13,12 @@ export default function Home() {
         <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
           Get Started
         </button>
+        <a href="/login" className="text-blue-600 hover:text-blue-700 font-medium transition-colors">
+          Login
+        </a>
+        <a href="/register" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+          Sign Up
+        </a>
       </nav>
 
       {/* Hero Section */}
